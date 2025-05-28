@@ -72,7 +72,7 @@ def main():
         edited_df = st.data_editor(
             edited_df, key=DATA_EDITOR_KEY, num_rows="dynamic", hide_index=True)
 
-        handle_save_button(repo, edited_df)
+        #handle_save_button(repo, edited_df)
 
 
 if __name__ == "__main__":
